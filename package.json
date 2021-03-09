@@ -1,0 +1,34 @@
+{
+    "name": "fcc_amp_timestamp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/revul93/fcc_amp_timestamp.git"
+    },
+    "keywords": [
+        "timestamp",
+        "api",
+        "express",
+        "freecodecamp"
+    ],
+    "author": "revul93",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/revul93/fcc_amp_timestamp/issues"
+    },
+    "homepage": "https://github.com/revul93/fcc_amp_timestamp#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.1"
+    }
+}
