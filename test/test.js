@@ -40,11 +40,11 @@ describe('Timestamp', () => {
         });
     });
 
-    describe('Invalid date', () => {
+    describe('Invalid Date', () => {
         const result = timestamp('2015-25-12');
 
-        it(`Expected Invalid date error`, () => {
-            assert.strictEqual(result.error, 'Invalid date');
+        it(`Expected Invalid Date error`, () => {
+            assert.strictEqual(result.error, 'Invalid Date');
         });
     });
 });

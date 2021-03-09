@@ -11,9 +11,9 @@ const timestamp = (date) => {
         utc = new Date(Date.parse(date)).toGMTString();
     }
 
-    if (!unix || utc === 'Invalid date') {
+    if (!unix || utc === 'Invalid Date') {
         return {
-            error: 'Invalid date',
+            error: 'Invalid Date',
         };
     }
 
